@@ -1,0 +1,109 @@
+div.each-prd-in-cart {
+
+    margin-bottom: 50px;
+    border: 1px solid #000;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgba(240, 145, 8);
+}
+
+img.cart-head-prd-thumnail {
+    width: 100%;
+    padding: 0px 20px;
+    border-radius: 50px;
+}
+
+div.block-chain-each-prd {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgba(240, 145, 8);
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+div.block-prd-show p {
+    font-size: 18px;
+    margin-left:100px;
+}
+
+div#cart-prd-prices {
+    font-size: 24px;
+}
+
+button#btn-select-address {
+    width: 100%;
+    padding: 10px;
+}
+
+button#btn-select-address {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgba(240, 145, 8);
+    color: #fff;
+}
+
+.show-select-address, .block-section-modal {
+    width: 60%;
+    background-color: rgb(255, 235, 197);
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.show-select-address .modal-footer {
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.show-select-address .modal-footer a {
+    color: #000;
+
+}
+
+.show-select-address .modal-footer a:hover {
+    color: rgba(240, 145, 8);
+}
+
+button.btn-choose {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+    background: rgba(240, 145, 8);
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.block-payment {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+div#modal-success-inform {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.block-section-modal div.modal-header{
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.block-section-modal div.modal-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-section-modal div.modal-body a {
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+h3.cart-head-prd-name.cart-prd-show {
+    margin-bottom: 50px;
+}

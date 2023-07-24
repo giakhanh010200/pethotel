@@ -1,0 +1,215 @@
+div.wget-cart-prd-section-view {
+    padding: 0;
+}
+
+.show_body__section__cart-prd {
+    margin-bottom: 200px;
+}
+
+div.notification-empty-cart {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5rem;
+    font-size: 24px;
+    background-color: #ffebc5;
+    text-align: center;
+}
+
+.btn-continue-shopping {
+    padding: 10px 40px;
+    background-color: #ffebc5;
+    color: #ff6853;
+    margin-top: 50px;
+    font-size: 18px;
+    border-radius: 2rem;
+}
+
+.btn-continue-shopping:hover {
+    background-color: #ff6853;
+}
+
+div.block-product-view-cart {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius:50px;
+    margin-bottom:25px;
+    border:2px double rgba(255, 104, 83, 0.7);
+}
+
+img.img-cart-for-prd-cart {
+    width: 100%;
+    border-radius: 25px;
+}
+
+div.wget-cart-prd-section-view, div.widget-view-cart-section, div.widget-info-block {
+    padding: 0;
+}
+
+div.content-prd-info-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 30px 10px 20px;
+}
+
+div.content-quantity-prd {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+div.content-subtotal-price-prd p.price-subtotal {
+    font-size: 24px;
+}
+
+div.content-subtotal-price-prd {
+    text-align: center;
+}
+
+.content-quantity-prd.content-block div {
+    width: 50%;
+}
+
+.content-quantity-prd.content-block div button,
+.content-quantity-prd.content-block div input {
+    width: 100%;
+}
+
+.content-quantity-prd.content-block div button {
+    background: transparent;
+    border: 2px double #f09108;
+    color: #ff6853;
+    transition: all 0.5s ease-in-out;
+}
+
+.content-quantity-prd.content-block div button:hover {
+    background: #f09108;
+    color: #fff;
+}
+
+.content-quantity-prd.content-block div button:first-child {
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.content-quantity-prd.content-block div button:nth-child(3) {
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.content-quantity-prd.content-block div input {
+    border: 2px double #f09108;
+    text-align: center;
+    background: #f09108;
+    color: #fff;
+
+}
+
+div.content-block {
+    padding: 0;
+}
+div.wget-cart-prd-section-view, div.subtotal-price-wget{
+    display: flex;
+    justify-content: space-between;
+}
+div.block-wget-payment-info{
+    text-align: center;
+    padding:25px 30px;
+    border-radius: 20px 20px 0px 0px;
+    border-top: 3px double rgba(255, 104, 83,0.3);
+    box-shadow: rgba(255, 104, 83, 0.07) 0px -23px 25px 0px inset, rgba(255, 104, 83, 0.15) 0px -36px 30px 0px inset, rgba(255, 104, 83, 0.1) 0px -79px 40px 0px inset, rgba(255, 104, 83, 0.06) 0px 2px 1px, rgba(255, 104, 83, 0.09) 0px 4px 2px, rgba(255, 104, 83, 0.09) 0px 8px 4px, rgba(255, 104, 83, 0.09) 0px 16px 8px, rgba(255, 104, 83, 0.09) 0px 32px 16px;
+}
+div.subtotal-price-wget{
+    margin-top:50px;
+    font-size: 20px;
+}
+button.btn-pri-submit, a.btn-pri-submit{
+    background: rgba(255, 104, 83,0.3);
+    margin:0;
+    width: 100%;
+    border-bottom: 2px double rgba(255, 104, 83,0.3);
+    transition: all 0.3s ease-in-out;
+}
+button.btn-pri-submit:hover, a.btn-pri-submit:hover{
+    background: rgba(255, 104, 83,0.5);
+    color:#fff;
+}
+button.btn-pri-submit:first-child{
+    border-radius: 0px 0px 0px 20px;
+}
+button.btn-pri-submit:nth-child(2){
+    border-radius: 0px 0px 20px 0px;
+}
+div.block-button-payment{
+    display: flex;
+}
+div.widget-view-payment-section{
+    padding-right:0;
+}
+button.btn-remove-product{
+    padding:12px 16px;
+    border-radius: 50px;
+    background: rgba(255, 104, 83,0.3);
+    transition: all 0.5s ease-in-out;
+}
+
+button.btn-remove-product:hover{
+    background: rgba(255, 104, 83,1);
+    color:#fff;
+    border:2px solid rgba(255, 104, 83,1);
+}
+.popupSuccessMessageSendGGForm {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index:999999;
+    bottom:0;
+    top:0;
+    visibility: hidden;
+    display:flex;
+    opacity:0;
+    transition: opacity 500ms;
+    justify-content:center;
+    align-items:center;
+    background-color:rgba(0,0,0,0.5);
+}
+.popupSuccessMessageSendGGForm div{
+    justify-content:space-around;
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(255, 235, 197, 1);
+    height:300px;
+    width:50%;
+    border-radius:50px;
+    padding:30px;
+    text-align:center;
+}
+.popupSuccessMessageSendGGForm div .popup-content-success{
+    font-size:20px;
+}
+
+
+
+div.box-btn-popup{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between;
+    height:auto;
+}
+
+div.box-btn-popup button{
+    background-color:#f09108;
+    border:none;
+    color:#FFF;
+    border-radius:50px;
+    width:45%;
+    padding:20px;
+    transition: all 0.5s ease-in-out;
+}
+div.box-btn-popup button:hover{
+    background-color:#fff;
+    color:#000;
+    border:1px solid #000;
+}

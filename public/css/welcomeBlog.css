@@ -1,0 +1,33 @@
+a img{
+    width: 100%;
+    border-radius: 20px;
+}
+.section-panel.row-panel-blogs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.each-block-panel-blog{
+    border-radius: 20px;
+    border-top:2px double #000;
+    border-bottom:2px double #000;
+    background-color: rgb(255, 235, 197, 1);
+
+}
+.each-data-blog{
+    margin-bottom:40px;
+}
+div.panel-bottom.panel-under-img{
+    padding:20px;
+}
+.blog-title.title-show a{
+    color:#000;
+    font-size: 24px;
+}
+div.panel-bottom{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+div.blog-title.title-show{
+    margin-bottom:20px;
+}

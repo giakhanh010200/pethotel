@@ -1,0 +1,194 @@
+div.wget-block-all-sers {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+    justify-content: center;
+}
+
+div.wget-each-service-show {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+button.block-each-service {
+    background-color: rgba(238, 238, 238, 1);
+    border-radius: 50px;
+    padding: 50px 100px;
+    color: #000;
+    font-size: 24px;
+    text-transform: capitalize;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    border: none;
+}
+
+img.image-thumb-service, img.image-toggle-service {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    margin-bottom:20px;
+}
+button.item-navbar-change.active img{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+button.block-each-service:hover img.image-thumb-service {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+button.block-each-service:hover {
+    background-color: rgb(255, 235, 197, 1);
+    color: #ff6853;
+}
+
+div.non-active {
+    display: none;
+}
+
+img.image-descrip-info {
+    width: 100%;
+    border-radius: 50px;
+}
+
+div.about-servs {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(255, 235, 197, 1);
+    padding:50px;
+    border-radius: 50px
+}
+
+div.info-content-wget {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+h1.wget-item-title {
+    font-size: 72px;
+    line-height: 80px;
+    text-transform: capitalize;
+    color: #ff6853;
+    letter-spacing: 1px;
+
+}
+p.wget-item-content{
+    margin-top:10px;
+    margin-left: 100px;
+    color:rgba(0,0,0,0.7);
+}
+h4.wget-item-price{
+    margin-bottom:100px;
+    color:rgba(0,0,0,1);
+    margin-left:50px;
+}
+div.nav.nav-menu-bar.bar-change-tab-icon button{
+    border:none;
+    background:none;
+    padding:20px;
+    text-align:center;
+    transition: all 1s ease-in-out;
+    border-radius:50px 50px 0px 0px;
+}
+img.image-toggle-service {
+    width: 50%;
+    text-align: center;
+}
+div.nav.nav-menu-bar.bar-change-tab-icon button.item-navbar-change.active{
+    background-color: rgb(255, 235, 197, 1);
+}
+.nav.nav-menu-bar.bar-change-tab-icon {
+    justify-content: center;
+}
+div.block-column-group-wget{
+    display: flex;
+    flex-wrap:wrap;
+}
+div.widget-col-main-content{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+img.widget-img-block{
+    width: 100%;
+    border-radius:50px;
+}
+div.wget-block-section-clients{
+    margin-bottom:200px;
+}
+h2.widget-col-title {
+    font-size: 84px;
+    -webkit-text-stroke: 1px currentColor;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5px;
+    line-height: 1em;
+}
+h4.widget-col-sub-title {
+    font-size: 54px;
+    line-height: 80px;
+    letter-spacing: 1px;
+    text-shadow: 4px -2px rgb(0 0 0 / 50%);
+}
+p.widget-col-content {
+    opacity: 0.7;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+div.col-block-widget-image{
+    display:flex;
+    flex-wrap:wrap;
+}
+div.col-block-widget-image img{
+    width:100%;
+    height:100%;
+    border-radius: 50px;
+}
+div.wget-client{
+    margin-top:100px;
+}
+div.col-block-widget-image div{
+    margin-bottom:50px;
+}
+div.facilities-img div.img-block-inner-group:nth-child(2) img,
+div.facilities-img div.img-block-inner-group:nth-child(5) img{
+    margin-top:100px;
+}
+div.facilities-img div.img-block-inner-group:nth-child(3) img,
+div.facilities-img div.img-block-inner-group:nth-child(6) img{
+    margin-top:150px;
+}
+h3.title-group-wid{
+    text-align:center;
+    font-size:48px;
+    letter-spacing: 10px;
+    width:100%;
+    margin-bottom:50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    text-transform: uppercase;
+}
+div.foods-img div.img-block-inner-group:nth-child(2) img,
+div.foods-img div.img-block-inner-group:nth-child(4) img{
+    margin-top:100px;
+}
+div.plays-img div.img-block-inner-group:nth-child(2) img,
+div.plays-img div.img-block-inner-group:nth-child(5) img{
+    margin-top:100px;
+}
+div.plays-img div.img-block-inner-group:nth-child(1) img,
+div.plays-img div.img-block-inner-group:nth-child(4) img{
+    margin-top:150px;
+}
+div.col-block-widget-image div.img-block-inner-group img{
+    height:75%;
+}

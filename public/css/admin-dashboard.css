@@ -1,0 +1,162 @@
+div.box-dashboard-welcome {
+    margin-top: 50px;
+    width: 100%;
+    border-top: 2px dashed #000;
+    border-bottom: 1px dashed #000;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+div.box-dashboard-welcome p {
+    margin: 0;
+}
+
+div.revenue-box-session {
+    margin: 50px 0px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(255, 255, 255, 0.2) 15px 15px;
+}
+
+div.revenue-wrapper-4-block {
+    background: #FFF;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+div.wrapper-block {
+    border-radius: 10px;
+    padding: 15px;
+    width: 24%;
+    color: #FFF;
+    box-shadow: rgba(136, 165, 191, 0.28) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+div.first-block {
+    background: rgba(0, 0, 0, 0.25);
+}
+
+div.second-block {
+    background: rgba(0, 0, 0, 0.45);
+}
+
+div.third-block {
+    background: rgba(0, 0, 0, 0.65);
+}
+
+div.fourth-block {
+    background: rgba(0, 0, 0, 0.85);
+}
+
+div.statistical-box-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+}
+
+div.box-right-bottom {
+    display: flex;
+    flex-direction: column
+}
+
+div.box-right-bottom div {
+    height: 100%;
+}
+
+div.box-right-bottom .todos-box-top {
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+div.box-right-bottom div.top-users-box-bottom {
+    border-radius: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+div.box-left-bottom.bottom-wrapper-box {
+    display: flex;
+    flex-direction: column;
+}
+
+div.box-left-bottom.bottom-wrapper-box div.box-top-blog-content {
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+div.box-left-bottom.bottom-wrapper-box div.box-bottom-statistical {
+    border-radius: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+div.box-left-bottom.bottom-wrapper-box div.box-bottom-statistical {
+    margin-top: 30px;
+}
+
+div.box-left-bottom div.box-bottom-statistical {
+    display: flex;
+    flex-direction: column;
+}
+
+div.statistical-box-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.statistical-box-title {
+    border-bottom: 2px solid #000;
+}
+
+.statistical-box-title h3 {
+    padding: 5px 10px 0px;
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+}
+
+div.statistical-box-content {
+    padding: 15px 0px;
+    background-color:rgba(0, 0, 0, 0.4);
+}
+.statistical-box-content div.box-content {
+    width: 100%;
+    padding: 0px 15px;
+}
+div.statistical-cart-services {
+    border-right: 5px double #000;
+    border-left: 5px double #000;
+    text-align: center;
+}
+div.statistical-boarding{
+    text-align: right;
+}
+.statistical-box-content div.box-content h5.box-bottom-title{
+    text-transform: capitalize;
+}
+p.cart-status.success{
+    color:green;
+}
+p.cart-status.pending{
+    color:yellow;
+}
+p.cart-status.cancle{
+    color:red;
+}
+p.block-content{
+    text-align: center;
+}
+.success.count-quantity{
+    color: green;
+}
+.statistical-cart-products.box-content {
+    border-right: 5px double #000;
+}

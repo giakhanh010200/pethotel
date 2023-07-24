@@ -1,0 +1,110 @@
+div.box-view-shop{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.col-12, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11
+{
+    padding: 0;
+}
+form.form-search{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+form.form-search input#search-address{
+    border: 1px solid #000;
+    width: 100%;
+    padding: 10px;
+    border-radius:5px 0px 0px 5px;
+}
+button.btn-search {
+    background-color: transparent;
+    border: 1px solid #000;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+}
+.view-add-address{
+    margin: 20px 0px;
+    width: 100%;
+}
+.button-show-add{
+    width: 100%;
+    background:transparent;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid;
+}
+div.box-view-shop div:not(:last-child){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+div.box-view-shop div:last-child{
+    text-align: right;
+}
+.show-view-edit-shop{
+    margin-bottom: 20px;
+}
+.modal.shop__modal__address{
+    background-color:#FFF;
+}
+.box-map-embed{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.box-map-embed input{
+    height: auto;
+    border-radius: 4px 0 0 4px;
+}
+div.box-show-map iframe{
+    width: 100%;
+    margin-top: 20px;
+}
+div.modal.shop__modal__address.show {
+    width: 50%;
+    top: 75px;
+    right: 0;
+    left: 0;
+    display: flex;
+    margin: 0 auto;
+    height:fit-content;
+}
+div.action-shop-address button{
+    margin-left:10px;
+}
+.group-input-for-label .time-field{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+button#btn-view-map {
+    border-radius: 0px 4px 4px 0px;
+}
+h4.modal-title{
+    text-transform:uppercase;
+    font-weight: bold;
+}
+.body-address-detail-title{
+    font-weight: 600;
+}
+.body-view-detail-add{
+    display:flex;
+    flex-direction: row;
+}
+div.details-add-view{
+    margin: 10px;
+}
+div.body-address-detail-map iframe{
+    width: 100%;
+}
+.form-control{
+    border: 1px solid #000;
+}
+button.btn-success.btn.btn-view-map{
+    border-radius: 0px 4px 4px 0px;
+    border: 1px solid #000;
+}

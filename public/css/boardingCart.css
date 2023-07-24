@@ -1,0 +1,119 @@
+.block-section.section-booking-first.col-lg-9.col-md-9.col-sm-12 {
+    margin: 0 auto;
+}
+h2.title-wg{
+    margin-bottom:50px;
+}
+div.block-widget-1 div.form-label{
+    margin-bottom:20px;
+    display:flex;
+    align-items:center
+}
+div.block-widget-1 div.form-label input{
+    background:none;
+    border:none;
+    font-size:18px;
+    margin:0;
+    padding:0;
+}
+div.block-widget-1, div.block-widget-2{
+    padding: 3.125rem;
+    border: 4px solid #efefef;
+    border-radius: 50px;
+    margin-bottom:50px;
+
+}
+label{
+    font-size:18px;
+}
+.block-total-price-show{
+    font-size: 24px;
+}
+iframe {
+    width: 100%;
+}
+div.label-booking-details{
+    display: flex;
+}
+label{
+    margin:0;
+    width:30%;
+}
+button.btn-payment{
+    background: #ffebc5;
+    color: #ff6853;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    transition: all 0.5s ease-in-out;
+    padding: 10px 40px;
+    font-size: 20px;
+}
+button.btn-payment:hover{
+    color:#000;
+    background:#ffff;
+    border:2px solid #000;
+}
+div.block-widget-3{
+    margin:50px 0px 200px;
+}
+div.block-widget-3 button{
+    margin-top:50px;
+}
+.block-chain-widget {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding:30px;
+    color: #fff;
+    border-radius: 50px;
+    /* display: flex; */
+    /* justify-content: center; */
+    background: linear-gradient(to bottom,#f1b014,#f09108);
+}
+.modal-footer{
+    display: flex;
+    justify-content:space-between;
+}
+.modal-footer input {
+    margin-right:10px;
+}
+div.modal-booking-forms{
+    background-color:rgba(0,0,0,0.5);
+}
+div.label-booking-user{
+    margin-bottom:20px;
+}
+div.label-booking-user input{
+    border-radius: 50px;
+    padding: 10px 20px;
+    border:2px solid #000;
+    font-size:18px;
+    margin-top:10px;
+}
+div#modal-success-inform {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.block-section-modal div.modal-header{
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.block-section-modal div.modal-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-section-modal div.modal-body a {
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.block-section-modal {
+    width: 60%;
+    background-color: rgb(255, 235, 197);
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 40px;
+    border-radius: 20px;
+}

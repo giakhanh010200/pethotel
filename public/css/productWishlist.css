@@ -1,0 +1,51 @@
+div.each-prds-block{
+    display: flex;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 25px;
+    border: 2px double rgba(255, 104, 83, 0.7);
+}
+img.img-thumbnail-alt{
+    width:100%;
+}
+div.block-widget-bottom-prds{
+    display: flex;
+    justify-content:space-between;
+}
+div.block-widget-bottom-prds div.prds-content-wget{
+    width:100%;
+}
+div.prds-widget-button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.prds-widget-price.prds-widget-ct {
+    font-size: 22px;
+    margin-top:16px;
+}
+div.prds-widget-pet,div.prds-widget-cate{
+    font-size: 18px;
+}
+div.prds-widget-button.prds-content-wget button:first-child{
+    margin-bottom:12px;
+}
+div.prds-widget-button.prds-content-wget button{
+    width:200px;
+    padding: 12px 16px;
+    border-radius: 50px;
+    background: rgba(255, 104, 83,0.3);
+    transition: all 0.5s ease-in-out;
+    border:2px solid black;
+
+}
+div.prds-widget-button.prds-content-wget button:hover{
+
+    background: rgba(255, 104, 83,1);
+    color: #fff;
+    border: 2px solid rgba(255, 104, 83,1);
+
+}
+div.container-wistlist-products{
+    margin-bottom:100px;
+}

@@ -1,0 +1,73 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: #f0f0f1;
+}
+
+div.box-login {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+}
+
+div.group-admin-login {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 30px;
+    top: 0;
+    bottom: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #fff;
+    border-radius: 40px 10px;
+}
+
+div.login-header img.header-image {
+    width: 50%;
+}
+div.form-group input:hover{
+    border:2px solid #000;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+div.login-header {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    background-color: #000;
+    border-radius: 20px 5px;
+    color: #fff;
+}
+
+form.form-login-admin {
+    margin-bottom: 20px;
+}
+
+button.btn.btn-success {
+    width: 100%;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(115, 115, 115, 1) 0%, rgba(46, 46, 50, 1) 32%, rgba(35, 35, 61, 1) 62%, rgba(0, 0, 0, 1) 100%);
+    border: none;
+}
+
+h3.header-text {
+    margin-top: -30px;
+    -webkit-text-stroke: 1px currentColor;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+}
+p{
+    padding:0;
+    margin:0;
+}
+div.alert-error{
+    font-weight: 600;
+    color:red;
+}

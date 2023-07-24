@@ -1,0 +1,297 @@
+.section__showww-product-filters {
+    display: flex;
+    padding: 0;
+}
+
+.prds-table-site__show {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.aside-filters__product {
+    padding-left: 0;
+
+}
+
+form.form-filter.form-submit {
+    background-color: rgb(255, 235, 197, 1);
+    border-radius: 2rem;
+}
+
+.show-all__product.column-product-site {
+    padding: 0;
+}
+
+.image-prds-itemm img {
+    width: 100%;
+}
+
+div.form-search-on-aside {
+    margin-bottom: 50px;
+}
+
+div.list-item-gr {
+    margin: 5px 20px;
+}
+
+.filters-product-row {
+    padding: 15px;
+}
+
+input#amount {
+    background: transparent;
+}
+
+div.price_range_show_for {
+    margin-top: 20px;
+}
+
+.ui-slider-range.ui-corner-all.ui-widget-header {
+    z-index: 1;
+    display: block;
+    border-radius: 2rem;
+    background: #ff6853;
+    border: none;
+}
+
+span.ui-slider-handle.ui-corner-all.ui-state-default {
+    background: #f54028;
+    border-radius: 50%;
+}
+
+.ui-widget.ui-widget-content {
+    border-radius: 2rem;
+}
+
+div.item-checkbox {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+div.item-checkbox label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 1.5em;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1.5em;
+}
+
+div.item-checkbox p {
+    margin-left: 20px;
+}
+
+div.item-checkbox input[type="checkbox"] {
+    visibility: hidden;
+}
+
+div.item-checkbox input[type="checkbox"]:checked+label {
+    background-color: #f54028;
+    border-color: #f54028;
+}
+
+i.fas.fa-paw {
+    position: absolute;
+    color: #fff;
+    font-size: 1em;
+    right: 12%;
+    top: 10%;
+}
+
+div.row__quick-sort-prd {
+    margin-bottom: 50px;
+}
+
+select.sort-control.select-sort-by {
+    border-radius: 2rem;
+    padding: 5px 20px;
+}
+
+.each-products-item {
+    margin-bottom: 30px;
+
+}
+
+.prds-item-as-each {
+    background-color: rgb(255, 235, 197, 1);
+    border-radius: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.image-prds-itemm a img {
+    border-radius: 30px;
+}
+
+div.infor-form-item {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+div.infor-form-item a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.prd-item-list-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+button.btn-ajax-cart-prd.btn-ajax-prd {
+    padding: 10px;
+    background-color: rgba(255, 104, 83, 1);
+    border-radius: 2em;
+    transition: all 0.5s ease;
+    color: #fff;
+    border: 2px solid transparent;
+
+}
+
+.infor-prds-item {
+    height: 100%;
+}
+
+button.btn-submit-onchange-checked {
+    margin: -20px 0px 30px 30px;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: none;
+    background: #ff6853;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+button.btn-ajax-cart-prd.btn-ajax-prd:hover,
+button.btn-submit-onchange-checked:hover {
+    border: 2px solid #000;
+    color: #000;
+    background: #fff;
+}
+
+.list-group-sort-filters {
+    display: flex;
+    flex-direction: column;
+}
+
+
+div.sort-group {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 5px 20px;
+}
+
+div.sort-group label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 1.5em;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1.5em;
+}
+
+div.sort-group p {
+    margin-left: 20px;
+}
+
+div.sort-group input[type="radio"] {
+    visibility: hidden;
+}
+
+div.sort-group input[type="radio"]:checked+label {
+    background-color: #f54028;
+    border-color: #f54028;
+}
+.__section-body-content-shop {
+    margin-bottom: 200px;
+}
+.infomation-text-column {
+    text-align: center;
+    font-size: 49px;
+    letter-spacing: 0.5em;
+}
+button.btn.btn-ajax-add-wishlist-prd {
+    position: absolute;
+    right: 30px;
+    top:5px;
+    font-size: 24px;
+    color: #ccc;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+}
+button.btn-ajax-add-wishlist-prd:hover,
+button.btn-ajax-add-wishlist-prd.active{
+    color:#f54028;
+}
+.popupSuccessMessageSendGGForm {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index:999999;
+    bottom:0;
+    top:0;
+    visibility: hidden;
+    display:flex;
+    opacity:0;
+    transition: opacity 500ms;
+    justify-content:center;
+    align-items:center;
+    background-color:rgba(0,0,0,0.5);
+}
+.popupSuccessMessageSendGGForm div{
+    justify-content:space-around;
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(255, 235, 197, 1);
+    height:300px;
+    width:50%;
+    border-radius:50px;
+    padding:30px;
+    text-align:center;
+}
+.popupSuccessMessageSendGGForm div .popup-content-success{
+    font-size:20px;
+}
+
+
+
+div.box-btn-popup{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between;
+    height:auto;
+}
+
+div.box-btn-popup button{
+    background-color:#f09108;
+    border:none;
+    color:#FFF;
+    border-radius:50px;
+    width:45%;
+    padding:20px;
+    transition: all 0.5s ease-in-out;
+}
+div.box-btn-popup button:hover{
+    background-color:#fff;
+    color:#000;
+    border:1px solid #000;
+}

@@ -1,0 +1,167 @@
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(25%);
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-25%);
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{
+  transform: translateX(0);
+
+}
+div.wget-col-image img{
+    width: 100%;
+    margin-right:30px;
+    border-radius:50px;
+}
+.carousel-control-h{
+    display: none;
+}
+div.bottom-block-content-view{
+    margin-top:100px;
+    margin-bottom:200px;
+}
+div.text-view-about p {
+    font-size:18px;
+}
+div.block-details{
+    margin-top:50px;
+    border:1px solid #000;
+    background: linear-gradient(to bottom,#f1b014,#f09108);
+    border-radius:50px;
+    padding:30px;
+}
+div.details-section-view{
+    background:#fff;
+    border:1px solid #000;
+    border-radius:45px;
+    padding:20px;
+}
+li.item-details{
+    margin-bottom:15px;
+}
+h2.section-title{
+    margin-bottom:30px;
+}
+div.price-details span{
+    font-size:24px;
+}
+div.price-details{
+    margin-top:20px;
+    text-align:right;
+}
+div.content-booking-view-details{
+    padding:0;
+    display:flex;
+    margin-top:100px;
+    margin-bottom:200px;
+}
+div.section-booking-check-date{
+    background: linear-gradient(to bottom,#f1b014,#f09108);
+    color: #fff;
+    padding:40px;
+    border-radius:40px;
+}
+form.form-reservation div.form-group{
+    margin-top:30px;
+}
+button.btn-reservation{
+    width:100%;
+    background: #ffebc5;
+    color: #ff6853;
+    border:2px solid transparent;
+    border-radius:50px;
+    transition: all 0.5s ease-in-out;
+    padding:10px 0px;
+}
+button.btn-reservation:hover{
+    border:2px solid #000;
+    background:#fff;
+    color:#000;
+
+}
+form.form-reservation div.form-group input,
+form.form-reservation div.form-group select,
+.full .ts-control{
+    padding: 1.5em;
+    background-color: #ffc64a !important;
+    color: inherit;
+    border:2px solid transparent;
+    border-radius:50px;
+    width: 100%;
+    font-size: 16px;
+}
+
+div.alert{
+    border-radius: 25px;
+}
+div#alertPet {
+    margin-top: 25px;
+}
+button.btn.btn-submit-form.btn-reservation {
+    margin-top: 50px;
+}
+
+element.style {
+    visibility: visible;
+    opacity: 1;
+}
+.popupSuccessMessageSendGGForm {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999999;
+    bottom: 0;
+    top: 0;
+    visibility: hidden;
+    display: flex;
+    opacity: 0;
+    transition: opacity 500ms;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+}
+div.box-btn-popup button {
+    background-color: #f09108;
+    border: none;
+    color: #FFF;
+    border-radius: 50px;
+    width: 45%;
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+div.box-btn-popup button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.popupSuccessMessageSendGGForm div {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 235, 197, 1);
+    height: 300px;
+    width: 50%;
+    border-radius: 50px;
+    padding: 30px;
+    text-align: center;
+}
+div.box-btn-popup {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+}

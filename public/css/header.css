@@ -1,0 +1,219 @@
+/* ================================================================= header */
+
+body, html {
+    height: 100%;
+}
+
+.fixed-header.nav-header-admin {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 15px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+button#search-site-link {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin: 0px 10px;
+    padding: 0.875rem 0;
+}
+button.nav-admin-info {
+    color: #FFF;
+    background: black;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    padding: 0px 15px;
+    height: 100%;
+    font-size: 16px;
+}
+
+button.nav-admin-info i {
+    padding-right: 5px;
+}
+
+button.menu-aside-button {
+    color: #FFF;
+    background: transparent;
+    border: none;
+}
+
+div.logo-wrap {
+    margin-right: 20px;
+    background: #000;
+    border-radius: 20px 5px;
+    padding: 0px 10px;
+    border: 2px solid #FFF;
+}
+
+span.admin-logo-text {
+    color: #FFF;
+    font-family: 'Apple Chancery', sans-serif;
+    font-size: 18px;
+    padding: 0px 15px;
+}
+
+ul.menu-paged.menu-logo-dropdown li a {
+    color: #000;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+ul.menu-paged.menu-logo-dropdown {
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 23%, rgba(179, 179, 179, 1) 64%, rgba(0, 0, 0, 1) 97%);
+    z-index: 999;
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px 30px;
+}
+
+ul.menu-paged.menu-logo-dropdown li {
+    display: block;
+    padding: 10px;
+}
+
+.box-info-admin.flex-right.view-admin-info {
+    display: flex;
+    flex-direction: column;
+}
+
+div.box-logo.view-page-logo:hover ul.menu-paged.menu-logo-dropdown {
+    display: block;
+}
+
+.box-header-left.flex-left {
+    display: flex;
+    flex-direction: row;
+}
+
+img.sm-logo-header-admin.hover-show-link {
+    width: 50px;
+    border-radius: 20px;
+}
+
+button.menu-aside-button {
+    color: #FFF;
+    border-radius: 30px;
+    border: 2px solid #FFF;
+    background: #000;
+}
+
+.box-nav-menu-info.info-menu {
+    display: none;
+    background: #000;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    position: absolute;
+    top: 75px;
+    right: 15px;
+}
+
+.box-nav-menu-info.info-menu ul.nav-admin {
+    padding: 20px;
+    margin: 0;
+}
+
+.box-nav-menu-info.info-menu ul.nav-admin li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.box-nav-menu-info.info-menu ul.nav-admin li a i {
+    padding-right: 10px;
+}
+
+.box-nav-menu-info.info-menu ul.nav-admin li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* ================================================================= aside */
+
+aside.aside-nav-menu {
+    width: fit-content;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    position:fixed;
+    z-index: 1000;
+}
+
+ul.side-nav-control.nav-nicescroll {
+    padding: 10px 15px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li.aside-nav-control-item a, li.aside-nav-control-item button {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+li.aside-nav-items div ul {
+    padding: 0;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    padding-top: 74px;
+}
+
+li.aside-nav-title.aside-nav-control-item button {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+li.aside-nav-title.aside-nav-control-item {
+    border-bottom: 2px double #FFF;
+    padding-bottom: 15px;
+}
+
+li.aside-nav-control-item a p, li.aside-nav-control-item button p {
+    margin: 0;
+    text-transform: capitalize;
+    color: #FFF;
+}
+
+li.aside-nav-control-item a {
+    padding: 10px 0px 10px 10px;
+    text-decoration: none;
+}
+
+li.aside-nav-control-item a i, li.aside-nav-control-item button i {
+    margin-right: 10px;
+    color: #FFF;
+    transition: all 0.5s ease-in-out;
+    width: 20px;
+}
+
+li.aside-nav-control-item button p {
+    text-transform: uppercase;
+}
+
+li.aside-nav-items {
+    padding-bottom: 15px;
+}
+li.aside-nav-title button.rotated i{
+    transform: rotate(-90deg);
+    transition: all 0.5s ease-in-out;
+}
+li.aside-nav-items div ul li.aside-nav-control-item:hover {
+    background: #000;
+}
+li.aside-nav-control-item a.activated{
+    background: #000;
+}
+

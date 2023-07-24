@@ -1,0 +1,143 @@
+
+.popupSuccessMessageSendGGForm {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999999;
+    bottom: 0;
+    top: 0;
+    visibility: hidden;
+    display: flex;
+    opacity: 0;
+    transition: opacity 500ms;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+}
+.popupSuccessMessageSendGGForm div {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 235, 197, 1);
+    height: 300px;
+    width: 50%;
+    border-radius: 50px;
+    padding: 30px;
+    text-align: center;
+}
+div.box-btn-popup {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+}
+div.box-btn-popup button {
+    background-color: #f09108;
+    border: none;
+    color: #FFF;
+    border-radius: 50px;
+    width: 45%;
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+div.box-btn-popup button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+div.thumb-block img{
+    width: 100%;
+    border-radius: 20px;
+    margin:30px 0px;
+}
+div.session-each div.block-show{
+    display: flex;
+}
+div.block-each-wget{
+    margin-top:50px;
+    margin-bottom:100px;
+    border:1px solid #000;
+    border-radius:30px;
+    background-color: #f09108;
+}
+div.session-each{
+    border-radius:25px;
+    border:1px solid #f09108;
+    margin:30px;
+    background-color:#fff;
+}
+div.block-info{
+    margin:30px 0px;
+}
+div.prd-price,div.serv-price{
+    font-size:24px;
+    margin:10px 0px;
+}
+div.prd-sku button {
+    border-radius: 50%;
+    background: none;
+    color: #ff6853;
+    width: 30px;
+    height: 30px;
+    border: 2px double #f09108;
+    transition: all 0.3s ease-in-out;
+}
+div.prd-sku input {
+    color: #fff;
+    background-color: #f09108;
+    border: 2px solid #f09108;
+    margin: 0px 5px;
+    border-radius: 40px;
+    text-align: center;
+    width: 25%;
+}
+div.prd-sku button:hover {
+    color: #fff;
+    background-color: #f09108;
+    border: 2px solid #f09108;
+}
+button.btn-ajax-cart-prd-qv {
+    background-color: #f09108;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #FFF;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+div.block-button{
+    margin-top:20px;
+}
+button.btn-ajax-cart-prd-qv:hover {
+    background: transparent;
+    color: #000;
+    border: 2px solid #000;
+}
+
+button.btn.btn-ajax-add-wishlist {
+    color: #ccc;
+    font-size: 30px;
+    padding: 0;
+    margin: 0px 10px;
+    transition: all 0.3s;
+}
+button.btn.btn-ajax-add-wishlist:hover {
+    color: red;
+}
+button.btn.btn-ajax-add-wishlist.active {
+    color: red;
+}
+div.link-view-info-detail{
+    margin-top:20px;
+}
+div.link-view-info-detail a{
+    font-size:20px;
+    color: rgb(240,145,8,0.7);
+}
+div.link-view-info-detail a:hover{
+    color: rgba(240,145,8);
+}

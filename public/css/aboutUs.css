@@ -1,0 +1,26 @@
+div.show_body__section__about-us div.section-about-us {
+    display: flex;
+    margin-bottom: 150px;
+    align-items: center;
+}
+
+div.second-section-about-us,
+div.fourth-section-about-us {
+    flex-direction: row-reverse;
+}
+
+div.section-image-about-us img {
+    width: 100%;
+    height: 100%;
+}
+
+div.section-content-about-us p {
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+div.section-content-about-us h3.title-content-about-us {
+    -webkit-text-stroke: 0.5px #000;
+    -webkit-text-fill-color: #ff6853;
+    font-size: 48px;
+}

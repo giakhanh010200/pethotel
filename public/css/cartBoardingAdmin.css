@@ -1,0 +1,64 @@
+div.search-cart-content form div.form-search {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+div.search-cart-content form input {
+    border: 1px solid #000;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+button.btn-search {
+    background-color: transparent;
+    border: 1px solid #000;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+}
+select#statusSortSelect {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+div.section-title-header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+div.section-title-header div {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0;
+    color: #fff;
+}
+div.section-content-data-list{
+    display: flex;
+    padding:10px;
+    border-top: 2px solid #000;
+}
+div.section-content-data-list div{
+    margin: 0;
+    padding: 0;
+}
+div.action-content button{
+    width: 100%;
+    margin-bottom:10px;
+}
+div.content-text:not(:last-child){
+    display: flex;
+    align-items: center;
+}
+div.block-widget-details{
+    width: 50%;
+    top: 75px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    height: fit-content;
+    background: #fff;
+    margin-top:100px;
+}
+div.modal-body div.each-block{
+    display: flex;
+}

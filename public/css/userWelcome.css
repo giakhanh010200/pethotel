@@ -1,0 +1,231 @@
+div.show_body__section__user-login{
+    margin:100px 0px 200px;
+}
+.session-wget-user{
+    height:1000px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color: rgb(255, 235, 197, 0.5);
+    padding:50px;
+    border-radius:5rem;
+    margin: 0 auto;
+}
+h2.title-wget-form-sess{
+    font-size:48px;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+form.form-user-wget{
+    margin-top:50px;
+}
+div.box-form-link-wget{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+div.box-form-link-wget a {
+    background-color:transparent;
+    border:none;
+    color: rgb(255,104,83)
+}
+button.btn-action-pri{
+    width:100%;
+    text-align:center;
+    border-radius:2rem;
+    background-color:rgba(255,104,83,0.7);
+    color:#fff;
+}
+button.btn-action-pri:hover{
+    background-color:rgb(255,104,83);
+    color:#fff;
+}
+input.input-form-insert{
+    border-radius:2rem;
+}
+div.box-form-link-wget div.link-login{
+    text-align:center;
+    width:100%;
+}
+.alert-error{
+    color:red;
+}
+
+div.wget-bg-user-login{
+    display:flex;
+}
+form.form-change-data-user div.form-group div.form-section{
+    display:flex;
+}
+div.form-section button{
+    width:100px;
+    background-color: rgb(255, 235, 197);
+    border-radius: 50px;
+    margin-left: 20px;
+}
+button i,a i{
+    margin-right:10px;
+}
+.block-btn-button-group {
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-end;
+}
+.block-btn-button-group button{
+    margin-left:20px;
+}
+div.content-bottom-user-info{
+    margin-top:100px;
+    border-top: 2px solid #000;
+    margin-bottom:200px;
+}
+div.tab-change{
+    display:flex;
+    margin-bottom:20px;
+}
+button.btn-change-tab.active{
+    background-color: rgba(240,145,8);
+    color: #fff;
+}
+button.btn-change-tab{
+    background-color:#f1b014;
+    padding:10px 30px;
+    width:100%;
+    border:1px solid #fff;
+    border-top:none;
+    transition:all 0.5s ease-in-out;
+
+}
+button.btn-change-tab:hover{
+    background-color: rgba(240,145,8);
+    color: #fff;
+}
+button.btn-change-tab:not(:last-child){
+    border-right:none;
+}
+div.content-bottom-user-info div.block-view-tab{
+    display:none;
+}
+div.content-bottom-user-info div.block-view-tab.active{
+    display:block;
+}
+.cart_id_render.show-off-id-cart {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.ordered-price-show {
+    margin-top: 10px;
+    font-size: 18px;
+}
+a.btn-details{
+    background-color: rgb(255, 235, 197);
+    margin: 10px 0px;
+    border:2px solid #000;
+    border-radius: 50px;
+}
+div.show-order-create:not(:last-child){
+    border-bottom:2px solid #000;
+    padding-bottom: 20px;
+}
+div.block-view-tab{
+    border:2px solid #000;
+    border-top:none;
+}
+button.btn-add-more-address{
+    margin-bottom:20px;
+}
+div.box-wget-show-add div.block-add{
+    display:flex;
+    padding-bottom: 20px;
+    margin-bottom:20px;
+    border-bottom:1px solid #000;
+}
+div.btn-action-address button{
+    width: 100%;
+    margin:10px;
+}
+
+div.btn-action-address
+{
+    display:flex;
+    flex-direction:column;
+}
+div.each-add-show{
+    display:flex;
+}
+div.each-add-show div.wget-block-title{
+    margin-right:40px;
+}
+div.each-add-show div{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    font-size:18px;
+}
+.box-wget-title {
+    text-align: center;
+}
+.box-wget-title button {
+    width:500px;
+    font-size: 20px;
+}
+.feature-box-edit.feature-box,.block-form-change {
+    width: 60%;
+    color: #fff;
+    background: linear-gradient(to bottom,#f1b014,#f09108);
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 40px;
+    border-radius: 20px;
+}
+div.modal-body-block-delete{
+    display: flex;
+
+}
+div.modal-body-block-delete div{
+    margin-bottom:10px;
+}
+div.modal-body-block-delete div.title-delete{
+    margin-right:40px;
+}
+div.modal-body div.form-label{
+    margin-bottom:20px;
+}
+h6.sub-title{
+    text-align: center;
+    color: rgba(255,104,83);
+}
+.col-lg-8.col-md-8.col-sm-12.profile-user {
+    background: linear-gradient(to bottom,#f1b014,#f09108);
+    border-radius: 50px;
+    padding: 20px;
+    color: #fff;
+}
+.col-lg-8.col-md-8.col-sm-12.profile-user input{
+    border-radius: 50px;
+}
+.block-btn-button-group button {
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+button.btn-change-tab:first-child{
+    border-radius:50px 0px 0px 50px;
+}
+button.btn-change-tab:last-child{
+    border-radius:0px 50px 50px 0px;
+}
+div.seach-data-boarding:not(:last-child) {
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+}
+div.modal-confirm-cancle-order div.toggle-box,.feature-box-add.feature-box{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding:30px;
+    color: #fff;
+    border-radius: 50px;
+    /* display: flex; */
+    /* justify-content: center; */
+    background: linear-gradient(to bottom,#f1b014,#f09108);
+}

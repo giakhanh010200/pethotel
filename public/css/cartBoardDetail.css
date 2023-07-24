@@ -1,0 +1,31 @@
+div.each-block.block-content{
+    display:flex;
+    font-size:18px;
+    margin-bottom:10px;
+}
+h3.boarding-title{
+    text-align:center;
+    margin-bottom:75px;
+}
+h4.title-block{
+    margin-bottom:40px;
+}
+iframe{
+    margin-top:20px;
+    width:100%;
+    border-radius: 40px;
+}
+div.block-section-boarding{
+    padding:40px;
+    border:2px double transparent;
+    border-radius:50px;
+    background: linear-gradient(to bottom,#f1b014,#f09108);
+    color: #fff;
+}
+div.block-section-user{
+    margin-top:100px;
+    margin-bottom:200px;
+    border:2px double #000;
+    border-radius:50px;
+    padding:40px;
+}

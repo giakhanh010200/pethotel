@@ -1,0 +1,214 @@
+button.btn-add-new {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+    margin: 20px 0px;
+}
+button.btn-add-new:hover{
+    background-color: #000;
+    color: #FFF;
+}
+.form-control {
+    border: 1px solid #000;
+}
+div.box-add-prd-content{
+    height:500px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+div.box-add-prd-content div.prd-content{
+    height:100%;
+}
+div.box-product-scan-info{
+    display:flex;
+    justify-content:space-between;
+}
+div.box-content-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+img.show-image-thumbnail {
+    height: 50%;
+    margin-bottom: 10px;
+    /* display: block; */
+    position: absolute;
+    display: flex;
+    width: auto;
+}
+.box-thumbnail-product {
+    height: 100%;
+}
+div.input-box-currency{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+div.input-box-currency p{
+    position: absolute;
+    padding:0.375rem;
+    margin: 0;
+    margin-left:12.5rem;
+    opacity: 0.5;
+}
+div.box-content-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right:15px;
+}
+div.view-add-product-on-right{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+div.bottom-view-right-add{
+    display: flex;
+    flex-direction: row;
+}
+div.box-product-scan-info input:first-child{
+    margin-right:15px;
+}
+input.form-control.input-import_price,
+input.form-control.input-sale_price {
+    padding-right: 3rem;
+}
+.ck.ck-reset.ck-editor.ck-rounded-corners {
+    height: 100%;
+    border: 1px solid #000;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.ck.ck-editor__main {
+    height: 100%;
+}
+.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline {
+    background-color: none !important;
+    height: 90%;
+    box-shadow: none;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+div.show__product__title {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+div.search-product-content form {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+div.search-product-content form input {
+    border: 1px solid #000;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+button.btn-search {
+    background-color: transparent;
+    border: 1px solid #000;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+}
+div.show__product__title div {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0;
+    color: #fff;
+}
+div.middle-at-title-prd{
+    display:flex;
+    flex-direction:row;
+}
+div.show__product__content div.showing__content{
+    display: flex;
+    padding: 10px;
+    border-top: 2px solid #000;
+}
+div.show__product__content div.showing__content div{
+    margin: 0;
+    padding: 0;
+}
+div.middle-at-content-prd, div.content-product-action{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+div.content-product-import_price,
+div.content-product-sale_price{
+    display:flex;
+    flex-direction: row;
+}
+p.currency-back-price{
+    opacity: 0.7;
+}
+p.action {
+    margin: 0;
+}
+button.btn-cancel-edit {
+    background: transparent;
+    border: none;
+}
+button.btn-cancel-edit i{
+    font-size:28px;
+}
+div.header-edit-product{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-bottom:10px;
+}
+div.show__edit__product {
+    border: 2px dotted #000;
+    padding: 20px;
+    margin-bottom: 30px;
+    display:none;
+}
+div.shop__modal__product.show{
+    width: 50%;
+    top: 75px;
+    right: 0;
+    left: 0;
+    display: flex;
+    margin: 0 auto;
+    height: fit-content;
+    background-color: #FFF;
+}
+div.top-body-prd-delete{
+    display:flex;
+}
+div.box-content-left div.content-box-delete p{
+    margin: 0;
+    padding: 0;
+}
+div.box-content-left div.content-box-delete{
+    display:flex;
+}
+div.title-box-delete{
+    font-weight: bold;
+}
+div.box-content-left{
+    margin-left: 40px;
+}
+div.box-title-right div,
+div.box-content-left div{
+    margin-bottom:10px;
+}
+div.box-show-description div{
+    display:none;
+}
+div.session-add-new-product{
+    display:none;
+}
+.group-input-checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

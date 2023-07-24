@@ -1,0 +1,192 @@
+/* css for add new blog*/
+
+div.box-add-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+div.box-content-right {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.box-thumbnail-content {
+    height: 100%;
+}
+
+input.title-add-new {
+    border: 1px solid #000;
+}
+
+.ck.ck-reset.ck-editor.ck-rounded-corners {
+    height: 100%;
+    margin-right: 20px;
+    border: 1px solid #000;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline {
+    background-color: none !important;
+    height: 90%;
+    box-shadow: none;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+.ck.ck-editor__main{
+    height: 100%;
+}
+img.show-image-thumbnail {
+    height: 50%;
+    margin-bottom: 10px;
+    /* display: block; */
+    position: absolute;
+    display: flex;
+    width: auto;
+}
+
+button.btn-add-new-blog {
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
+button.btn-add-new-blog:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+button.btn-add-new {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+    margin: 20px 0px;
+}
+
+button.btn-add-new:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* view all blog*/
+
+div.search-blog-content form {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+div.search-blog-content form input {
+    border: 1px solid #000;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+button.btn-search {
+    background-color: transparent;
+    border: 1px solid #000;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+table.view-list-blog {
+    width: 100%;
+}
+
+td.title-blog-table {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td.content-blog-table {
+    padding: 20px 0px;
+}
+
+div.show__blog__title {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+div.show__blog__title div {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0;
+    color: #fff;
+}
+
+div.showing__content div {
+    margin: 0;
+    padding: 0;
+}
+
+div.showing__content {
+    display: flex;
+    padding: 10px;
+    border-top: 2px solid #000;
+}
+
+div.showing__content div.content-blog-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.showing__content div.content-blog-action p {
+    margin: 0;
+}
+
+div.show__edit__content {
+    border: 2px dotted #000;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.header-edit-blog{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+button.btn-cancel-edit {
+    background: transparent;
+    border:none
+}
+button.btn-cancel-edit i{
+    font-size: 28px;
+}
+div.session-add-new-blog, div.show__edit__content{
+    display:none;
+}
+div.shop__modal__blog.show {
+    width: 50%;
+    top: 75px;
+    right: 0;
+    left: 0;
+    display: flex;
+    margin: 0 auto;
+    height: fit-content;
+    background-color: #FFF;
+}
+div.body-box-delete-blog div.form-group{
+    display: flex;
+    margin: 0;
+}
+div.body-box-delete-blog div label{
+    font-weight: bold;
+}
+div.body-box-delete-blog div.form-group p{
+    margin: 0;
+}

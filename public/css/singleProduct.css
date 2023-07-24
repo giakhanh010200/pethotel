@@ -1,0 +1,220 @@
+div.product-info-wget{
+    display: flex;
+}
+div.prd-thumb-left img{
+    width: 100%;
+    height:auto;
+    border-radius: 50px;
+}
+div.products-list-view{
+    display: flex;
+}
+div.thumbnail-block-item img{
+    width: 100%;
+    border-radius:30px;
+}
+div.block-widget-view-product-info{
+    margin-top:100px;
+}
+div.product-description-prv{
+    border-top: 0.5px solid black;
+    padding:50px 25px;
+}
+div.product-descrip-wget{
+    margin:50px 0px 100px;
+}
+h4.title-description{
+    font-size: 36px;
+}
+div.prd-price{
+    font-size:24px;
+    margin-bottom:10px;
+}
+.col-item-list-rec {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 235, 197, 1);
+    border-radius: 30px;
+}
+div.product-description-prv img{
+    width: 50%;
+}
+div.product-description-prv {
+    line-height:35px;
+}
+div.product-sku-block-wget{
+    display: flex;
+    align-items: center;
+}
+div.product-quantity-prv{
+    margin-left:10px;
+}
+div.product-sku-block-wget button{
+    border-radius: 50%;
+    background: none;
+    color: #ff6853;
+    width: 30px;
+    height: 30px;
+    border: 2px double #f09108;
+    transition: all 0.3s ease-in-out;
+}
+div.product-sku-block-wget button:hover{
+    color: #fff;
+    background-color: #f09108;
+    border: 2px solid #f09108;
+}
+div.product-sku-block-wget input{
+    color: #fff;
+    background-color: #f09108;
+    border:2px solid #f09108;
+    margin:0px 5px;
+    border-radius:40px;
+    text-align: center;
+    width:25%;
+}
+button.btn-ajax-cart-prd-qv{
+    background-color: #f09108;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #FFF;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+}
+div.button-primary-block-wget{
+    margin-top:25px;
+}
+button.btn-ajax-cart-prd-qv:hover{
+    background:transparent;
+    color:#000;
+    border: 2px solid #000;
+}
+button.btn.btn-ajax-wishlist-prd-qv {
+        color: #ccc;
+        font-size: 30px;
+        padding: 0;
+        margin: 0px 10px;
+        transition: all 0.3s
+}
+button.btn.btn-ajax-wishlist-prd-qv:hover{
+    color:red;
+}
+button.btn.btn-ajax-add-wishlist-prd {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    font-size: 24px;
+    color: #ccc;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+}
+button.btn.btn-ajax-add-wishlist-prd:hover{
+    color:red;
+}
+button.btn.btn-ajax-add-wishlist-prd.active,
+button.btn.btn-ajax-wishlist-prd-qv.active{
+    color:red;
+}
+div.form-info{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-direction: column;
+    height:100%;
+}
+div.content-block-item{
+    height:100%;
+}
+a.title-product-each-item{
+    color: #000;
+}
+div.content-block-item div.box-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px;
+    font-size: 18px;
+}
+button.btn-ajax-cart-prd.btn-ajax-prd {
+    padding: 10px;
+    background-color: rgba(255, 104, 83, 1);
+    border-radius: 2em;
+    transition: all 0.5s ease;
+    color: #fff;
+    border: 2px solid transparent;
+}
+button.btn-ajax-cart-prd.btn-ajax-prd:hover{
+    border: 2px solid #000;
+    color: #000;
+    background: #fff;
+}
+.prd-cate-prv-rec.product-recommend {
+    margin-bottom: 200px;
+}
+div.prd-cate-prv-rec.product-recommend{
+    margin-top:50px;
+}
+h2.title-prd-same{
+    font-size: 48px;
+
+}
+.popupSuccessMessageSendGGForm {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index:999999;
+    bottom:0;
+    top:0;
+    visibility: hidden;
+    display:flex;
+    opacity:0;
+    transition: opacity 500ms;
+    justify-content:center;
+    align-items:center;
+    background-color:rgba(0,0,0,0.5);
+}
+.popupSuccessMessageSendGGForm div{
+    justify-content:space-around;
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(255, 235, 197, 1);
+    height:300px;
+    width:50%;
+    border-radius:50px;
+    padding:30px;
+    text-align:center;
+}
+.popupSuccessMessageSendGGForm div .popup-content-success{
+    font-size:20px;
+}
+
+
+
+div.box-btn-popup{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between;
+    height:auto;
+}
+
+div.box-btn-popup button{
+    background-color:#f09108;
+    border:none;
+    color:#FFF;
+    border-radius:50px;
+    width:45%;
+    padding:20px;
+    transition: all 0.5s ease-in-out;
+}
+div.box-btn-popup button:hover{
+    background-color:#fff;
+    color:#000;
+    border:1px solid #000;
+}
+p#msg-ajax-rec,p#msg-ajax{
+    margin-top:30px;
+    text-align:center;
+    padding:30px;
+    font-size: 16px;
+}

@@ -1,0 +1,29 @@
+img{
+    width: 100%;
+}
+.panel-section.section-view-single{
+    margin-bottom:200px;
+}
+.panel-content.section-panel-bottom{
+    margin-top:50px;
+}
+.panel-content.section-panel-bottom .panel-content{
+    margin-top:20px;
+}
+div.block-panel-section{
+    display:flex;
+}
+.section-panel-block.left-panel-section{
+    padding-left: 100px;
+}
+div.each-block-blog{
+    margin-bottom:30px;
+}
+div.section-panel-block div.title-blogs a{
+    color:#000;
+    text-align:center;
+    font-size:18px;
+}
+div.section-panel-block div.title-blogs{
+    text-align:center;
+}

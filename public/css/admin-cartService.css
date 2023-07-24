@@ -1,0 +1,73 @@
+button.btn-add-new {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+    margin: 20px 0px;
+}
+button.btn-add-new:hover {
+    background-color: #000;
+    color: #FFF;
+}
+.list-service {
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox-each-services input {
+    margin-right: 10px;
+}
+.block-panel-add-new-service-cart{
+    display: none;
+}
+.block-panel-add-new-service-cart.active{
+    display: block;
+}
+.context-choose-pet input{
+    margin-right:10px;
+    margin-left:30px;
+}
+.list-view-cart-serv.unactive{display:none}
+div.row-title-header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+
+}
+div.row-title-header div{
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0;
+    color: #fff;
+}
+div.row-content-cart-serv{
+    display: flex;
+    padding:10px;
+    border-top: 2px solid #000;
+}
+div.content-row-cart{
+    margin: 0;
+    padding: 0;
+}
+.feature-box-modal{
+    width: 60%;
+    top: 75px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    height: fit-content;
+    background: #fff;
+    margin-top: 100px;
+}
+
+.each-block-panel{
+    display: flex;
+}
+div.each-serv-show{
+    margin-right:20px
+}
+div.serv-info.block-content{
+    display: flex;
+}
+div.second-panel-modal{
+    margin-top:30px;
+}

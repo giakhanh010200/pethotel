@@ -1,0 +1,89 @@
+div.body-content-show-service{
+    display:flex;
+}
+td.thumbnail-services-table img.image-thumb,td.thumbnail-services-table{
+    width:35%;
+}
+tr.show-each-services td{
+    vertical-align:middle;
+}
+td.action-services-table div{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    height:100%;
+}
+.box-thumbnail-service.form-group img.show-image-thumbnail{
+    width:50%;
+    height:auto;
+    max-height: 450px;
+}
+div.shop__modal__services.show {
+    width: 50%;
+    top: 75px;
+    right: 0;
+    left: 0;
+    display: flex;
+    margin: 0 auto;
+    height: fit-content;
+    background-color: #FFF;
+}
+div.box-thumbnail-service{
+    display:flex;
+    flex-direction: column;
+}
+div.box-input-currency-price{
+    display: flex;
+    justify-content: flex-end;
+}
+div.box-input-currency-price input{
+    padding: 0.375rem 2.75rem 0.375rem 0.75rem;
+}
+div.box-input-currency-price p{
+    position: absolute;
+    padding: 0.375rem;
+}
+td.price-services-table div{
+    display:flex;
+}
+p.currency-back-price{
+    margin: 0;
+    opacity: 0.5;
+}
+div.top-body-service-delete{
+    display: flex;
+}
+div.title-box-delete{
+    font-weight:bold;
+}
+div.content-box-delete{
+    display: flex;
+}
+div.box-title-right div, div.box-content-left div{
+    margin-bottom: 10px;
+}
+div.box-content-left {
+    margin-left: 40px;
+}
+.form-control{
+    border: 1px solid #000;
+}
+div.box-show-add-service{
+    display: none;
+}
+button.btn-add-service-new i{
+    transition: all 0.5s ease-in-out;
+}
+button.btn-add-service-new{
+    margin-bottom: 20px;
+}
+button.btn-add-service-new.activated i{
+    transform: rotate(405deg);
+}
+div.box-btn-action-form-add{
+    text-align: right;
+}
+div.form-statistical-services-use{
+    border: 5px double #000;
+}

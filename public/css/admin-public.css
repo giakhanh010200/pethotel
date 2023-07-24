@@ -1,0 +1,80 @@
+div.show-body-control {
+    padding: 20px;
+    width: 100%;
+    margin-left: 230px;
+    transition: all 0.5s ease;
+}
+div.show-body-control.active {
+    margin-left: 100px;
+    transition: all 0.5s ease;
+}
+
+h2.show-header-title {
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.9);
+}
+p.text-sm.text-gray-700.leading-5 {
+    display: none;
+}
+.alert-success{
+    margin-top: 40px;
+}
+section.alert.alert-success {
+    margin-top: 0px;
+}
+.hide {
+    display: none;
+    visibility: hidden;
+    height: 0;
+}
+
+.pagination\:container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.arrow\:text {
+    display: block;
+    vertical-align: middle;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.pagination\:number {
+    --size: 32px;
+    --margin: 6px;
+    margin: 0 var(--margin);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #000;
+    max-width: auto;
+    min-width: var(--size);
+    height: var(--size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 6px;
+    border: 2px solid #000;
+}
+
+.pagination\:number.active {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFF;
+}
+
+.pagination\:number a {
+    text-decoration: none;
+    color: #000;
+}
+
+.pagination\:number:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 1s ease;
+}
+
+.pagination\:number:hover a {
+    color: #FFF;
+    transition: all 0.5s ease;
+}

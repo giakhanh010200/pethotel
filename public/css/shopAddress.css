@@ -1,0 +1,200 @@
+.loading-send-contact {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    background: linear-gradient(0deg, rgba(255, 61, 0, 0.2) 33%, #ff3d00 100%);
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+.loading-send-contact::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+div.row-show__address {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.show-full-map-iframe, iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+div.show-full-map-iframe div.box-section-address {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background-color: rgb(255, 235, 197, 1);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+div.row-each-address-view {
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+div.address-information.col-6 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.offical-section-add {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.headquarter-contact i {
+    margin-right: 20px;
+    border: 1px solid #ff6853;
+    padding: 30px;
+    font-size: 30px;
+    color: #ff6853;
+    border-radius: 50%;
+}
+
+button.btn-send-form-contact {
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: none;
+    background: #ff6853;
+    color: #fff;
+    margin-right: 10px;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid transparent;
+}
+
+button.btn-send-form-contact:hover {
+    color: #000;
+    background: #fff;
+    border: 2px solid #000;
+}
+
+div.headquarter-contact {
+    display: flex;
+    align-items: center;
+
+}
+.intro-group-contact .input-info-contact{
+    border-radius: 2rem;
+}
+textarea.input-info-contact{
+    height: 100%;
+}
+div.intro-group-contact:nth-child(4){
+    height: 200px;
+}
+div.headquarter-contact div p.content,
+div.intro-group-contact div.intro-contact{
+    font-family: "Hind",sans-serif;
+}
+
+div.box-map-headquater-if {
+    height: 400px;
+    margin: 25px 0px 100px;
+}
+div.column-contact-form{
+    width: 50%;
+    margin:0 auto;
+}
+h4.title-contact-form-column{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom:40px;
+}
+div.icon-inner-bg{
+    position:absolute;
+    -webkit-text-fill-color: transparent;
+}
+.google-sheet-col-contact{
+    background-color: rgb(255, 235, 197, 0.8);
+    padding:30px;
+    margin-bottom:200px;
+    border-radius:10rem;
+}
+.innger-bg-1{
+    left:10%;
+    font-size: 120px;
+    transform: rotate(-30deg);
+    -webkit-text-stroke: 3px rgba(0,0,0,0.2);
+}
+.innger-bg-2{
+    right:10%;
+    font-size:150px;
+    top:50%;
+    z-index: -1;
+    transform: rotate(60deg);
+    -webkit-text-stroke: 5px rgba(0,0,0,0.5);
+}
+.innger-bg-3{
+    bottom:-20%;
+    left:50%;
+    font-size:130px;
+    z-index: -1;
+    transform:rotate(20deg);
+    -webkit-text-stroke: 4px rgba(0,0,0,1);
+}
+.popupSuccessMessageSendGGForm {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom:0;
+    top:0;
+    visibility: hidden;
+    display:flex;
+    opacity:0;
+    transition: opacity 500ms;
+    justify-content:center;
+    align-items:center;
+    background-color:rgba(0,0,0,0.5);
+}
+.popupSuccessMessageSendGGForm div{
+    justify-content:space-around;
+    display:flex;
+    flex-direction:column;
+    background-color:#ff6853;
+    height:300px;
+    width:50%;
+    border-radius:50px;
+    padding:30px;
+    text-align:center;
+}
+.popupSuccessMessageSendGGForm div .popup-content-success{
+    font-size:20px;
+}
+.button-send-form-intro-contact {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+div.intro-group-contact div.message-contact.intro-contact {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
